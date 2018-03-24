@@ -1,0 +1,13 @@
+﻿Need,Price,Type,Savings,WillBuy
+Yes,$$$,Electronic,0-10,Yes
+Maybe,$,Clothes,30-60,No
+Yes,$,Food,0-10,Yes
+Maybe,$,Clothes,10-30,Yes
+Maybe,$$$,Electronic,>60,No
+Yes,$$,Fun,0-10,Yes
+No,$,Food,0-10,No
+Yes,$$,Clothes,0-10,Yes
+Maybe,$,Food,>60,No
+Maybe,$$$,Fun,10-30,No
+No,$,Clothes,0-10,No
+Maybe,$,Food,30-60,Yes
