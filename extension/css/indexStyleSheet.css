@@ -3,3 +3,8 @@ h1{
 	margin: 30pt;
 	font-family: helvetica;
 }
+
+body{
+	background-image: url(../images/bill.jpg);
+	background-size: cover;
+}
