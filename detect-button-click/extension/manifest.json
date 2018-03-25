@@ -1,0 +1,17 @@
+{
+    "name": "Saver",
+    "description": "Save Yourself from Drunk Spending!",
+    "version": "3.0.0",
+    "manifest_version": 2,
+    "permissions": [
+      "notifications", "background"
+    ],
+    "browser_action": {
+        "default_popup": "html/popup.html"
+    },
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    }
+}
