@@ -1,10 +1,36 @@
 h1{
-	font-size: 80pt;
-	margin: 30pt;
+	font-size: 90pt;
+	margin: 20pt 40pt 10pt 20pt;
 	font-family: helvetica;
+	font-weight: bold;
+	color: #36454f; /*charcoal*/
+	text-shadow: 0px 0px 30px white;
+}
+
+p{
+	font-size: 20pt;
+	margin: 10pt 40pt 40pt 20pt;
+	font-family: helvetica;
+	color: #36454f;
 }
 
 body{
 	background-image: url(../images/bill.jpg);
 	background-size: cover;
+}
+
+button{
+	font-family: helvetica;
+	background: transparent;
+	border-style: solid;
+	border-radius: 15px;
+	border-color: #36454f;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	font-size: 27pt;
+	padding: 17pt;
+	color: #36454f;
+	font-weight: bold;
+
 }
