@@ -1,11 +1,14 @@
 {
-    "name": "Saved",
-    "version": "1.0",
+    "name": "Saver",
     "description": "Save Yourself from Drunk Spending!",
-    "permissions": ["storage"],
+    "version": "3.0.0",
+    "permissions": [
+      "notifications"
+    ],
     "background": {
-      "scripts": ["background.js"],
-      "persistent": false
+      "scripts": [
+        "background.js"
+      ]
     },
-    "manifest_version": 2
+    "main": "notify.js",
 }
