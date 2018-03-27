@@ -25,8 +25,17 @@ document.addEventListener('DOMContentLoaded', function () {
 document.getElementById("click-me").addEventListener('click',
 clickHandler); });
 
-function clickHandler(e) {   PopupClick('SHOW'); }
+function clickHandler(e) {   PopupClick('SHOW'); NotifClick('SHOW');}
 
 function PopupClick(str) {
   chrome.tabs.create({'url': "extension/html/index.html"});
+}
+function NotifClick(str) {
+  chrome.notifications.create('alert', {
+    iconUrl: "extension/get_started32.png",
+    type: 'basic',
+    iconUrl: 'get_started32.png',
+    title: 'You sure?',
+    message: 'Are you impulsively buying this?'
+ });
 }

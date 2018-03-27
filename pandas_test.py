@@ -77,33 +77,5 @@ def probs(a):
         probs[att] = p
     return probs
 
-# def make_order():
-#     order = []
-#     info_gain = info_list()
-#     vals = info_gain.values()
-#     while 0 not in vals:
-#         att = next(iter(info_gain))
-#         order.append(att)
-#
-#
-#         vals = info_gain.values()
-
-class Node:
-    def __init__(self, state, children):
-
-            self.state = state
-            self.children = children
-
-# def hard_tree():
-#     start_node = Node("Patreons", None)
-#     second_node = Node("Hungry", None)
-#     start_node.children = [Node("Some", Node("Yes", None)), Node("Full", second_node),Node("None", Node("No", None))]
-#     third_node = Node("Hungry", None)
-#     second_node.children = [Node("Yes", Node("No", None)), Node("No", Node("No", None))]
-#     fourth_node = Node("Friday", None)
-#     third_node.children = [Node("Italian", Node("No", None)), Node("Burger", Node("Yes", fourth_node))]
-#     fourth_node.children = [Node("No", Node("No", None)), Node("Yes", Node("Yes", None))]
-#     return start_node
-
 info_gain = info_list()
 print(info_gain)
